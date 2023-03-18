@@ -1,0 +1,10 @@
+.page {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+.page {
+  width: min(calc(100% - var(--space-m) * 2), var(--size-page));
+  margin: auto;
+}
