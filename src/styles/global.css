@@ -7,6 +7,13 @@ body {
   background-color: var(--color-background);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: var(--space-l);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -24,6 +31,17 @@ h1, h2, h3, h4, h5 {
     color: var(--color-text-title);
 }
 
+h3 img {
+  width: 1em;
+  height: 1em;
+  align-self: center;
+}
+
+button img {
+  width: 1.25em;
+  filter: invert(100%)
+}
+
 button {
     color: var(--color-text-secondary);
     background-color: var(--color-border);
@@ -35,6 +53,11 @@ button {
     padding-bottom: var(--space-m);
     cursor: pointer;
     transition-duration: var(--duration-fast);
+    margin-inline: var(--space-s);
+
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-m);
 }
 
 button:hover {

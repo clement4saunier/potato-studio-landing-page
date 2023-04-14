@@ -1,7 +1,10 @@
 import styles from "./Page.module.css"
 
-export default function Page({ children }) {
-    return <div class={styles.page}>
-        {children}
+export default function Page({ children, header }) {
+    return <div class={styles.container}>
+        {header}
+        <div class={styles.page}>
+            {children}
+        </div>
     </div>
 }

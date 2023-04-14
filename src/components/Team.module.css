@@ -1,0 +1,20 @@
+.teamMember h3 {
+  margin-top: 0px;
+}
+
+.teamMember {
+  border: var(--size-border) solid var(--color-border);
+  border-radius: var(--radius-m);
+}
+
+.info {
+  padding: var(--space-m);
+}
+
+.team {
+  display: grid;
+  gap: var(--space-l);
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-l);
+  grid-template-columns: 1fr 1fr 1fr;
+}

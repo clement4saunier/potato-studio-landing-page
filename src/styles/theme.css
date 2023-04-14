@@ -1,5 +1,5 @@
 :root {
-  --color-background: #ffe8af;
+  --color-background: #FFE8AD;
   --color-border: #653723;
   --color-text: #1f0d05;
   --color-text-secondary: #f3f0ee;
@@ -18,6 +18,6 @@
   --duration-fast: 100ms;
   --duration-slow: 250ms;
 
-  --size-page: 600px;
+  --size-page: 800px;
   --size-border: 3px;
 }
