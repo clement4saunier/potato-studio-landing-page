@@ -31,6 +31,12 @@ h1, h2, h3, h4, h5 {
     color: var(--color-text-title);
 }
 
+@media only screen and (max-width: 500px) {
+  * {
+    font-size: 3vw;
+  }
+}
+
 h3 img {
   width: 1em;
   height: 1em;
