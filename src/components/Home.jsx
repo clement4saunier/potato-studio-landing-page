@@ -7,6 +7,7 @@ import Team from "./Team";
 
 import instagram from "../assets/icons/instagram.svg"
 import upupandaway from "../assets/upupandaway.png"
+import group from "../assets/team/group.jpg"
 import Art from "./Art";
 
 
@@ -51,7 +52,7 @@ export default function Home() {
 
             </p>
             <Divider />
-            <img src={logo} alt="potato studio logo" />
+            <img src={group} alt="potato studio group" />
             <h1 id="team">About us</h1>
             <p>
                 We are an international team of students. Each of us started the minor
