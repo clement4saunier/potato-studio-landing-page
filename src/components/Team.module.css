@@ -16,5 +16,9 @@
   gap: var(--space-l);
   margin-top: var(--space-l);
   margin-bottom: var(--space-l);
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.team img  {
+    width: 100%;
 }

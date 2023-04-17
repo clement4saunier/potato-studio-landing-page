@@ -32,42 +32,67 @@ export default function Team() {
         {
             name: "Roel",
             image: clement,
-            role: "Lead Developer"
+            role: "Artist",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/ro%C3%ABl-francees-0bb419186/") }} /></button>
+            </>
         },
         {
             name: "Esmeralda",
             image: clement,
-            role: "Lead Developer"
+            role: "Lead Artist",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/esmeraldagasanz/") }} /></button>
+            </>
         },
         {
             name: "Joey",
             image: clement,
-            role: "Lead Developer"
+            role: "Producer",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/joey-visbeen-662b69236/") }} /></button>
+                <button><img src={github} onClick={() => { window.open("https://github.com/JoeyVisbeen") }} /></button>
+            </>
         },
         {
             name: "Brian",
             image: clement,
-            role: "Lead Developer"
+            role: "Artist / Developer",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/brian-bel-797148154/") }} /></button>
+            </>
         },
         {
             name: "Parwesh",
             image: clement,
-            role: "Lead Developer"
+            role: "Level Designer",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/parweshsoekhoe-463ab19a/") }} /></button>
+            </>
         },
         {
             name: "Changhao",
             image: clement,
-            role: "Lead Developer"
+            role: "Artist",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/changhao-li-955a95212/") }} /></button>
+            </>
         },
         {
             name: "Eva",
             image: clement,
-            role: "Lead Developer"
+            role: "Artist",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/evavanderkroft/") }} /></button>
+            </>
         },
         {
             name: "Ayrton",
             image: clement,
-            role: "Lead Developer"
+            role: "Developer",
+            buttons: <>
+                <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/parweshsoekhoe-463ab19a/") }} /></button>
+            </>
         }
     ]
 

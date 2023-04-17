@@ -6,6 +6,7 @@ import Divider from "./layout/Divider";
 import Team from "./Team";
 
 import instagram from "../assets/icons/instagram.svg"
+import upupandaway from "../assets/upupandaway.png"
 import Art from "./Art";
 
 
@@ -42,9 +43,11 @@ export default function Home() {
             <p>
                 In a post-apocalyptic world, the happy, cartoonish characters race in hot air balloons, using everything they can to win and get all the fame, fortune, and land.
             </p>
-            <img src={logo} alt="potato studio logo" />
+            <img src={upupandaway} alt="potato studio logo" />
             <h2>Our vision</h2>
+
             <p>
+                It will be a racing game in the sky. Players will compete with each other, using various items to gain an advantage and achieve high speeds. The race will have the player constantly engage with trying to win. By balancing the different items such that the last player is capable to catch up and even still win in the last round, the game forces the players to be focussing fully for the entire race. The game will grant you choices during the race, an item or a boost, left or right and many more. Because you will be headed at these choices with high speed, the player will only get a small window to make the decision. By racing as fast as possible and making the right decisions throughout the game, the player will be able to win the race.  The primary focus of the game will be on social competition, with players racing against friends and family members. The key objective is to encourage engagement, with the game serving as a means for people to come together and spend time with one anothe
 
             </p>
             <Divider />
