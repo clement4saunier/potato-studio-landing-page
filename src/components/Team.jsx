@@ -1,6 +1,14 @@
 import styles from "./Team.module.css";
 
-import clement from "../assets/team/clement.png";
+import clement from "../assets/team/clement.jpg";
+import eva from "../assets/team/eva.jpg";
+import esmeralda from "../assets/team/esmeralda.jpg";
+import brian from "../assets/team/brian.jpg";
+import roel from "../assets/team/roel.jpg";
+import parwesh from "../assets/team/parwesh.jpg";
+import changhao from "../assets/team/changhao.jpg";
+import ayrton from "../assets/team/ayrton.jpg";
+import joey from "../assets/team/joey.jpg";
 
 import linkedIn from "../assets/icons/linkedin.svg"
 import github from "../assets/icons/github.svg"
@@ -31,7 +39,7 @@ export default function Team() {
         },
         {
             name: "Roel",
-            image: clement,
+            image: roel,
             role: "Artist",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/ro%C3%ABl-francees-0bb419186/") }} /></button>
@@ -39,7 +47,7 @@ export default function Team() {
         },
         {
             name: "Esmeralda",
-            image: clement,
+            image: esmeralda,
             role: "Lead Artist",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/esmeraldagasanz/") }} /></button>
@@ -47,7 +55,7 @@ export default function Team() {
         },
         {
             name: "Joey",
-            image: clement,
+            image: joey,
             role: "Producer",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/joey-visbeen-662b69236/") }} /></button>
@@ -56,7 +64,7 @@ export default function Team() {
         },
         {
             name: "Brian",
-            image: clement,
+            image: brian,
             role: "Artist / Developer",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/brian-bel-797148154/") }} /></button>
@@ -64,7 +72,7 @@ export default function Team() {
         },
         {
             name: "Parwesh",
-            image: clement,
+            image: parwesh,
             role: "Level Designer",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/parweshsoekhoe-463ab19a/") }} /></button>
@@ -72,7 +80,7 @@ export default function Team() {
         },
         {
             name: "Changhao",
-            image: clement,
+            image: changhao,
             role: "Artist",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/changhao-li-955a95212/") }} /></button>
@@ -80,7 +88,7 @@ export default function Team() {
         },
         {
             name: "Eva",
-            image: clement,
+            image: eva,
             role: "Artist",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/evavanderkroft/") }} /></button>
@@ -88,7 +96,7 @@ export default function Team() {
         },
         {
             name: "Ayrton",
-            image: clement,
+            image: ayrton,
             role: "Developer",
             buttons: <>
                 <button><img src={linkedIn} onClick={() => { window.open("https://www.linkedin.com/in/parweshsoekhoe-463ab19a/") }} /></button>

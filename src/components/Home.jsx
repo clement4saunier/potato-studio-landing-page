@@ -66,7 +66,7 @@ export default function Home() {
             <Art />
             <Divider />
             <p id="contact">
-                You can contact us via ???
+                You can contact us via 20214081@student.hhs.nl
             </p>
         </Page>
     )
