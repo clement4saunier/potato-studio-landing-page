@@ -6,3 +6,21 @@ header img {
   display: flex;
   gap: var(--space-l);
 }
+
+.title > * {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title  h1  {
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: var(--space-l);
+}
+
+.title p {
+  margin-top: 0;
+  font-size: 30px;
+}

@@ -6,7 +6,11 @@
 }
 
 .page {
+  background: linear-gradient(white, #ffe8a9 20em, white 70em, white 90%, #ffe8a9);
   min-height: 100vh;
+}
+
+.content {
   width: min(calc(100% - var(--space-m) * 2), var(--size-page));
   margin: auto;
 }

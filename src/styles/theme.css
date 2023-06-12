@@ -10,13 +10,16 @@
   --space-s: 2px;
   --space-m: 6px;
   --space-l: 12px;
+  --space-xl: 24px;
 
-  --radius-s: 2px;
-  --radius-m: 4px;
-  --radius-l: 8px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
 
   --duration-fast: 100ms;
   --duration-slow: 250ms;
+
+  --shadow-default: 0 3px 5px 1px rgb(59 59 59 / 33%);
 
   --size-page: 800px;
   --size-border: 3px;

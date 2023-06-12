@@ -3,8 +3,11 @@
 }
 
 .teamMember {
-  border: var(--size-border) solid var(--color-border);
+  /* border: var(--size-border) solid var(--color-border); */
   border-radius: var(--radius-m);
+  background-color: var(--color-background);
+  padding: var(--space-l);
+  box-shadow: var(--shadow-default);
 }
 
 .info {
@@ -13,14 +16,15 @@
 
 .team {
   display: grid;
-  gap: var(--space-l);
+  gap: var(--space-xl);
   margin-top: var(--space-l);
   margin-bottom: var(--space-l);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.teamMember > img  {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
+.teamMember > img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: calc(var(--radius-m) - 2px);
 }
