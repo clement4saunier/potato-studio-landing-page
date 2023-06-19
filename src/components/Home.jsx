@@ -6,6 +6,8 @@ import Divider from "./layout/Divider";
 import Team from "./Team";
 
 import instagram from "../assets/icons/instagram.svg"
+import mail from "../assets/icons/mail.svg"
+import play from "../assets/icons/play.svg"
 import upupandaway from "../assets/upupandaway.png"
 import group from "../assets/team/group.jpg"
 import Art from "./Art";
@@ -36,7 +38,7 @@ export default function Home() {
                     Games to remember
                 </p>
             </div>
-            <h1>About us</h1>
+            <h1 id="team">About us</h1>
             <p>
                 We are an international team of students. Each of us started the minor “Game development and simulation” at The Hague University of Applied Sciences.
                 During this minor we started working on: “Up, Up, & Away!" A project that we aim to keep working on after the minor is ended. We are passionate about
@@ -61,12 +63,32 @@ export default function Home() {
                 engagement, with the game serving as a means for people to come together and spend time with one another
 
             </p>
-            <img src={upupandaway} alt="potato studio logo" />
+            <div class="card">
+                <iframe style={{ "aspect-ratio": "16 / 9", width: "calc(100%)" }} src="http://www.youtube.com/embed/4tG274QuqHM?autoplay=0&autohide=1&controls=2&rel=0" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+            <br/>
+            <div class={styles.play}>
+                <p>Play Up, Up & Away !</p>  
+                <button class={styles.playButton}> Play Game </button>
+            </div>
+            {/* <img class="card" src={upupandaway} alt="potato studio logo" /> */}
             <h1 id="art">Art</h1>
             <Art />
-            <p id="contact">
-                You can contact us via 20214081@student.hhs.nl
+            <h1 id="contact">Contact</h1>
+            <p>
+                You can reach us through email or Instagram !
             </p>
+            <div class={styles.links}>
+                <div>
+                    <img src={mail} alt="mail" />
+                    20214081@student.hhs.nl
+                </div>
+                <div>
+                    <img src={instagram} alt="instagram" />
+                    @potatostudiosgames
+                </div>
+            </div>
+            <br />
         </Page>
     )
 }

@@ -14,7 +14,7 @@ header img {
   text-align: center;
 }
 
-.title  h1  {
+.title h1 {
   font-size: 70px;
   font-weight: 900;
   margin-bottom: var(--space-l);
@@ -23,4 +23,34 @@ header img {
 .title p {
   margin-top: 0;
   font-size: 30px;
+}
+
+.links,
+.links > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--space-l);
+  align-items: center;
+}
+
+.links {
+  gap: calc(var(--space-l) * 4);
+}
+
+.playButton {
+  font-size: 30px;
+  flex-grow: unset;
+}
+
+.play {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.play p {
+  font-size: xx-large;
 }

@@ -86,3 +86,10 @@ button:active {
     background-color: var(--color-highlight);
     transform: translateY(2px);
 }
+
+.card {
+  border-radius: var(--radius-m);
+  background-color: var(--color-background);
+  padding: var(--space-l);
+  box-shadow: var(--shadow-default);
+}
