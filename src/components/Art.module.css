@@ -16,6 +16,7 @@
   box-shadow: var(--shadow-default);
   height: min-content;
   width: fit-content;
+  margin:auto;
 }
 
 .image img {

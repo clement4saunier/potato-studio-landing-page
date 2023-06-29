@@ -14,6 +14,14 @@ import art10 from "../assets/art/art_10.png";
 import art11 from "../assets/art/art_11.png";
 import art12 from "../assets/art/art_12.png";
 import art13 from "../assets/art/art_13.png";
+import art14 from "../assets/art/art_14.png";
+import art15 from "../assets/art/art_15.png";
+import art16 from "../assets/art/art_16.png";
+import art17 from "../assets/art/art_17.png";
+import art18 from "../assets/art/art_18.png";
+import art19 from "../assets/art/art_19.png";
+import art20 from "../assets/art/art_20.png";
+import art21 from "../assets/art/art_21.png";
 
 export default function Art() {
     return <div class={styles.container}>
@@ -62,6 +70,27 @@ export default function Art() {
         </div>
         <div class={styles.image}>
             <img src={art13} alt="art13" />
+        </div>
+        <div class={styles.image}>
+            <img src={art14} alt="art14" />
+        </div>
+        <div class={styles.image}>
+            <img src={art15} alt="art15" />
+        </div>
+        <div class={styles.image}>
+            <img src={art16} alt="art16" />
+        </div>
+        <div class={styles.image}>
+            <img src={art20} alt="art20" />
+        </div>
+        <div class={styles.image}>
+            <img src={art18} alt="art18" />
+        </div>
+        <div class={styles.image}>
+            <img src={art19} alt="art19" />
+        </div>
+        <div class={styles.image}>
+            <img src={art17} alt="art17" />
         </div>
     </div>
 }

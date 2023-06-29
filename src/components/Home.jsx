@@ -11,6 +11,9 @@ import play from "../assets/icons/play.svg"
 import upupandaway from "../assets/upupandaway.png"
 import group from "../assets/team/group.jpg"
 import Art from "./Art";
+import gameplay1 from "../assets/gameplay/gameplay_1.png";
+import gameplay2 from "../assets/gameplay/gameplay_2.png";
+import gameplay3 from "../assets/gameplay/gameplay_3.png";
 
 
 export default function Home() {
@@ -60,11 +63,23 @@ export default function Home() {
                 headed at these choices with high speed, the player will only get a small window to make the decision. By racing as fast as
                 possible and making the right decisions throughout the game, the player will be able to win the race. The primary focus of the
                 game will be on social competition, with players racing against friends and family members. The key objective is to encourage
-                engagement, with the game serving as a means for people to come together and spend time with one another
+                engagement, with the game serving as a means for people to come together and spend time with one another.
 
             </p>
             <div class="card">
-                <iframe style={{ "aspect-ratio": "16 / 9", width: "calc(100%)" }} src="http://www.youtube.com/embed/4tG274QuqHM?autoplay=0&autohide=1&controls=2&rel=0" frameborder="0" allowfullscreen="true"></iframe>
+                <iframe style={{ "aspect-ratio": "16 / 9", width: "calc(100%)" }} src="https://www.youtube.com/embed/_XJFnvV2_oY" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+            <br />
+            <div class="multipleCards">
+                <div class="card">
+                    <img src={gameplay1} alt="gameplay1" />
+                </div>
+                <div class="card">
+                    <img src={gameplay2} alt="gameplay2" />
+                </div>
+                <div class="card">
+                    <img src={gameplay3} alt="gameplay3" />
+                </div>
             </div>
             <br/>
             <div class={styles.play}>
