@@ -84,7 +84,7 @@ export default function Home() {
             <br/>
             <div class={styles.play}>
                 <p>Play Up, Up & Away !</p>  
-                <button class={styles.playButton}> Play Game </button>
+                <button class={styles.playButton} onClick={() => window.open("https://potatostudiosgames.itch.io/up-up-away", "_blank")}> Play Game </button>
             </div>
             {/* <img class="card" src={upupandaway} alt="potato studio logo" /> */}
             <h1 id="art">Art</h1>
